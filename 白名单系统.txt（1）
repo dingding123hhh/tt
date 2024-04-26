@@ -1,0 +1,67 @@
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "白名单验证...",
+    Duration = 3, --时间
+})
+
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+local Whitelisted = false;
+
+if game.Players.LocalPlayer.Name == "ch_pop" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xszxwhbdd" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "litingxian2009" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ch_k40" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "kr520l" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Simpsons367" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "Ucdnavg" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "xiao_noobA" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "ycy899666" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "sonice_464" then 
+Whitelisted = true 
+end
+
+if Whitelisted == true then
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "玩家:"..game.Players.LocalPlayer.Name.."，检测完毕白名单玩家 稍后会加载脚本",
+    Duration = 7, --时间
+}) 
+   
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/xiu/main/%E4%B8%81%E4%B8%81%E8%84%9A%E6%9C%AC%E6%BA%90%E7%A0%81.txt"))()
+   
+   else
+       game.Players.LocalPlayer:Kick("你没有被加入白名单，请找丁丁反馈或购买")--踢人函数
+   end
