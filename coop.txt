@@ -1,0 +1,218 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』"; Text ="Doors"; Duration = 10; })
+
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
+
+local Window = OrionLib:MakeWindow({Name = "『丁丁』", HidePremium = false, SaveConfig = true,IntroText = "『丁丁 coop』", ConfigFolder = "coop"})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "启动成功"; Text ="1.0"; Duration = 10; })
+
+
+local Tab = Window:MakeTab({
+	Name = "FNAF1",
+	Icon = "rbxassetid://11372950109",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+
+	Name = "夜视",
+
+	Default = false,
+
+	Callback = function(Value)
+
+		if Value then
+
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+
+		else
+
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+
+		end
+
+	end
+
+})
+
+Tab:AddButton({
+	Name = "丁丁飞行",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+  Name = "快速夜晚",
+  Callback = function ()
+  game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』脚本"; Text ="快速夜晚"; Duration = 4; })
+  end
+ })
+
+local Tab = Window:MakeTab({
+	Name = "FNAF2",
+	Icon = "rbxassetid://11372950109",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+
+	Name = "夜视",
+
+	Default = false,
+
+	Callback = function(Value)
+
+		if Value then
+
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+
+		else
+
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+
+		end
+
+	end
+
+})
+
+Tab:AddButton({
+	Name = "丁丁飞行",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+  Name = "快速夜晚",
+  Callback = function ()
+  game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』脚本"; Text ="快速夜晚"; Duration = 4; })
+  end
+ })
+ 
+ local Tab = Window:MakeTab({
+	Name = "FNAF3",
+	Icon = "rbxassetid://11372950109",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+
+	Name = "夜视",
+
+	Default = false,
+
+	Callback = function(Value)
+
+		if Value then
+
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+
+		else
+
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+
+		end
+
+	end
+
+})
+
+Tab:AddButton({
+	Name = "丁丁飞行",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+  Name = "快速夜晚",
+  Callback = function ()
+  game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』脚本"; Text ="快速夜晚"; Duration = 4; })
+  end
+ })
+ 
+ Tab:AddButton({
+  Name = "无损坏",
+  Callback = function ()
+  game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』脚本"; Text ="无损坏"; Duration = 4; })
+  end
+ })
+ 
+ local Tab = Window:MakeTab({
+	Name = "FNAF4",
+	Icon = "rbxassetid://11372950109",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+
+	Name = "夜视",
+
+	Default = false,
+
+	Callback = function(Value)
+
+		if Value then
+
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+
+		else
+
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+
+		end
+
+	end
+
+})
+
+Tab:AddButton({
+	Name = "丁丁飞行",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+  Name = "快速夜晚",
+  Callback = function ()
+  game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』脚本"; Text ="快速夜晚"; Duration = 4; })
+  end
+ })
+ 
+ Tab:AddButton({
+  Name = "透视电子动画",
+  Callback = function ()
+  loadstring(game:HttpGet('https://pastebin.com/raw/MA8jhPWT'))()
+  end
+ })
+ 
+ local Tab = Window:MakeTab({
+	Name = "FNAF5",
+	Icon = "rbxassetid://11372950109",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+
+	Name = "夜视",
+
+	Default = false,
+
+	Callback = function(Value)
+
+		if Value then
+
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+
+		else
+
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+
+		end
+
+	end
+
+})
