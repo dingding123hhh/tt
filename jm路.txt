@@ -1,0 +1,261 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁脚本』"; Text ="脚本"; Duration = 10; })
+
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
+
+local Window = OrionLib:MakeWindow({Name = "『禁漫中心』", HidePremium = false, SaveConfig = true,IntroText = "『禁漫中心』", ConfigFolder = "禁漫中心"})
+
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "启动成功"; Text ="1.0"; Duration = 10; })
+
+
+local about = Window:MakeTab({
+    Name = "作者简介",
+    Icon = "rbxassetid://16060333448",
+    PremiumOnly = false
+
+})
+
+about:AddParagraph("作者丁丁")
+about:AddParagraph("『禁漫中心』")
+about:AddParagraph("帅气丁丁")
+about:AddParagraph("『禁漫中心』")
+
+local Tab = Window:MakeTab({
+	Name = "通用",
+	Icon = "rbxassetid://16060333448",
+	PremiumOnly = false
+})
+
+Tab:AddSlider({
+
+	Name = "速度",
+
+	Min = 16,
+
+	Max = 200,
+
+	Default = 16,
+
+	Color = Color3.fromRGB(255,255,255),
+
+	Increment = 1,
+
+	ValueName = "数值",
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+
+	end    
+
+})
+
+Tab:AddSlider({
+
+	Name = "跳跃高度",
+
+	Min = 50,
+
+	Max = 200,
+
+	Default = 50,
+
+	Color = Color3.fromRGB(255,255,255),
+
+	Increment = 1,
+
+	ValueName = "数值",
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+
+	end    
+
+})
+
+Tab:AddTextbox({
+
+	Name = "跳跃高度设置",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+
+	end
+
+})
+
+Tab:AddTextbox({
+
+	Name = "移动速度设置",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+
+	end
+
+})
+
+Tab:AddTextbox({
+
+	Name = "重力设置",
+
+	Default = "",
+
+	TextDisappear = true,
+
+	Callback = function(Value)
+
+		game.Workspace.Gravity = Value
+
+	end
+
+})
+
+Tab:AddToggle({
+
+	Name = "夜视",
+
+	Default = false,
+
+	Callback = function(Value)
+
+		if Value then
+
+		    game.Lighting.Ambient = Color3.new(1, 1, 1)
+
+		else
+
+		    game.Lighting.Ambient = Color3.new(0, 0, 0)
+
+		end
+
+	end
+
+})
+
+Tab:AddButton({
+	Name = "丁丁飞行",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "主要",
+	Icon = "rbxassetid://16060333448",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "飞起来",
+	Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/fly/main/%E4%B8%81%E4%B8%81%E9%A3%9E%E8%A1%8C.txt"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "透视怪物",
+	Callback = function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/MA8jhPWT'))()
+  	end    
+})
+
+Tab:AddButton({
+
+	Name = "无敌(手机不适配)",
+
+	Callback = function()
+
+local lp = game:GetService "Players".LocalPlayer
+
+if lp.Character:FindFirstChild "Head" then
+
+    local char = lp.Character
+
+    char.Archivable = true
+
+    local new = char:Clone()
+
+    new.Parent = workspace
+
+    lp.Character = new
+
+    wait(2)
+
+    local oldhum = char:FindFirstChildWhichIsA "Humanoid"
+
+    local newhum = oldhum:Clone()
+
+    newhum.Parent = char
+
+    newhum.RequiresNeck = false
+
+    oldhum.Parent = nil
+
+    wait(2)
+
+    lp.Character = char
+
+    new:Destroy()
+
+    wait(1)
+
+    newhum:GetPropertyChangedSignal("Health"):Connect(
+
+        function()
+
+            if newhum.Health <= 0 then
+
+                oldhum.Parent = lp.Character
+
+                wait(1)
+
+                oldhum:Destroy()
+
+            end
+
+        end)
+
+    workspace.CurrentCamera.CameraSubject = char
+
+    if char:FindFirstChild "Animate" then
+
+        char.Animate.Disabled = true
+
+        wait(.1)
+
+        char.Animate.Disabled = false
+
+    end
+
+    lp.Character:FindFirstChild "Head":Destroy()
+
+end
+
+end
+
+})
+
+Tab:AddButton({
+	Name = "透视其他玩家",
+	Callback = function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/MA8jhPWT'))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "自动寻找木头",
+	Callback = function()
+ game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『丁丁』脚本"; Text ="自动寻找木头"; Duration = 4; })
+  	end    
+})
