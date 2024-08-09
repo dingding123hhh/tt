@@ -223,7 +223,7 @@ end
       DropShadow.BackgroundTransparency = 1.000
       DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
       DropShadow.Size = UDim2.new(1, 10, 1, 10)
-      DropShadow.Image = "rbxassetid://16235057491"
+      DropShadow.Image = "rbxassetid://14836576615"
       DropShadow.ImageColor3 = Color3.fromRGB(255,255,255)
       DropShadow.SliceCenter = Rect.new(49, 49, 450, 450)
 
@@ -426,7 +426,7 @@ end
       Open.Position = UDim2.new(0.00829315186, 0, 0.31107837, 0)
       Open.Size = UDim2.new(0, 40, 0, 40)
       Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
-      Open.Image = 'rbxassetid://16235057072'
+      Open.Image = 'rbxassetid://11280951323'
       Open.Active = true
       Open.Draggable = true
       Open.MouseButton1Click:Connect(function()
