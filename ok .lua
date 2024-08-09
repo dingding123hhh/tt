@@ -54,7 +54,7 @@ about:Label("进群发最新禁漫天堂")
 about:Label("脚本疯狂优化中")
 about:Label("你的注入器:"..identifyexecutor())
 about:Label("你的用户名:"..game.Players.LocalPlayer.Character.Name)
-about:Label("当前服务器ID:"..game.gameId.LocalPlayer.Character.Name)
+
 
 local UITab2 = win:Tab("『通用』",'16060333448')
 
