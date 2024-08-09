@@ -1705,7 +1705,7 @@ about:Button("禁漫中心",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/tt/main/jm%E7%81%AB%E7%AE%AD.lua"))()
 end)
 
-about:Slider("禁漫55",function(Value)
+about:Slider("禁漫55",function()
 Callback = function(Value)
     isFuelScoopEnabled = Value
 end)
