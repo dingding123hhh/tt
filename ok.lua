@@ -269,7 +269,7 @@ end)
 
 local UITab3 = win:Tab("『音乐』",'7734068321')
 
-local about = UITab1:section("『国歌』",true)
+local about = UITab3:section("『国歌』",true)
 about:Button("义勇军进行曲", function()
     local sound = Instance.new("Sound")
     sound.SoundId = "rbxassetid://1845918434"
@@ -277,7 +277,7 @@ about:Button("义勇军进行曲", function()
     sound:Play()
     end)
 
-local about = UITab2:section("『音乐』",true)
+local about = UITab3:section("『音乐』",true)
 about:Button("防空警报", function()
     local sound = Instance.new("Sound")
     sound.SoundId = "rbxassetid://792323017"
@@ -1854,4 +1854,28 @@ local about = UITab68:section("『合并滴管』",true)
 about:Button("合并滴管1",function()
 loadstring(game:HttpGet("https://pastefy.app/NpBrBCqM/raw"))()
 end)
+
+local UITab69 = win:Tab("『泰坦尼克号』",'7734068321')
+
+local about = UITab69:section("『泰坦尼克号』",true)
+
+about:Toggle("强制进入付费区域",function()
+local Workspace = game:GetService("Workspace")local Players = game:GetService("Players")local Clipon = trueStepped = game:GetService("RunService").Stepped:Connect(function()	if not Clipon == false then		for a, b in pairs(Workspace:GetChildren()) do        if b.Name == Players.LocalPlayer.Name then        for i, v in pairs(Workspace[Players.LocalPlayer.Name]:GetChildren()) do        if v:IsA("BasePart") then        v.CanCollide = false        end end end end	else		Stepped:Disconnect()	endend)
+end)
+
+about:Toggle("夜视","Toggle",false,function(Value)
+        Light = Value
+        game.RunService.Stepped:Connect(function()
+            if Light then
+                game.Lighting.Ambient = Color3.new(1, 1, 1)
+            else
+                game.Lighting.Ambient = Color3.new(0, 0, 0)
+            end
+        end)
+    end)
+    
+about:Toggle("在水中不会扣血",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
+end)
+
 
