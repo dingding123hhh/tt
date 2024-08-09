@@ -426,7 +426,7 @@ end
       Open.Position = UDim2.new(0.00829315186, 0, 0.31107837, 0)
       Open.Size = UDim2.new(0, 40, 0, 40)
       Open.BorderColor3 = Color3.fromRGB(0, 0, 0)
-      Open.Image = 'rbxassetid://1606036663448'
+      Open.Image = 'rbxassetid://10483855823'
       Open.Active = true
       Open.Draggable = true
       Open.MouseButton1Click:Connect(function()
