@@ -300,9 +300,9 @@ about:Button("彩虹瀑布",function()
     sound:Play()
     end)
 
-about:Button("jugsta rampage",function()
+about:Button("666",function()
     local sound = Instance.new("Sound")
-    sound.SoundId = "rbxassetid://15689453751"
+    sound.SoundId = "rbxassetid://14145620056"
     sound.Parent = game.Workspace
     sound:Play()
     end)
@@ -316,7 +316,7 @@ about:Button("can you?",function()
 
 about:Button("hours",function()
     local sound = Instance.new("Sound")
-    sound.SoundId = "rbxassetid://15689453014"
+    sound.SoundId = "rbxassetid://14145627857"
     sound.Parent = game.Workspace
     sound:Play()
     end)
