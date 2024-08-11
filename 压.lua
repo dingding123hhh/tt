@@ -1,14 +1,14 @@
-game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="压力"; Duration = 10; })
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『禁漫中心』"; Text ="Doors"; Duration = 10; })
 
 local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Orion/main/source'))()
 
-local Window = OrionLib:MakeWindow({Name = "『禁漫中心』", HidePremium = false, SaveConfig = true,IntroText = "『禁漫中心 压力』", ConfigFolder = "禁漫中心"})
+local Window = OrionLib:MakeWindow({Name = "『禁漫中心』", HidePremium = false, SaveConfig = true,IntroText = "『禁漫中心』", ConfigFolder = "禁漫中心"})
 
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "启动成功"; Text ="1.0"; Duration = 10; })
 
 
 local Tab = Window:MakeTab({
-	Name = "主要",
+	Name = "1",
 	Icon = "rbxassetid://11372950109",
 	PremiumOnly = false
 })
