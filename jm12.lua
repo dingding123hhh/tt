@@ -495,54 +495,6 @@ about:Button("死亡笔记",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/tt/main/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0%20(1).txt"))()
 end)
 
-about:Toggle("印钞机","Toggle",false,function(Value)
-MoneyPrint1 = Value
-        if MoneyPrint1 then
-            MoneyPrint2()
-        end
-    end    
-})
-MoneyPrint2 = function()
-    while MoneyPrint1 do
-    wait(0.1)
-    while true do
-            for i,l in pairs(game:GetService('Workspace').Game.Entities.ItemPickup:GetChildren()) do
-                for i,v in pairs(l:GetChildren()) do
-                    if v.ClassName == 'MeshPart' or 'Part' then
-                        for i,e in pairs(v:GetChildren()) do
-                            if e.ClassName == 'ProximityPrompt' then
-                                if e.ObjectText == 'Money Printer' then
-                                    local epoh1 = v.CFrame
-                                    local epoh2 = game:GetService('Players')
-                                    local epoh3 = epoh2.LocalPlayer.Character.HumanoidRootPart
-                                    epoh3.CFrame = epoh1
-                                else
-
-                                end
-                            end
-        
-                        end
-        
-                    end
-        
-        
-                end
-            end
-        
-            wait (0.1)
-            for i,v in pairs (game:GetService('Workspace').Game.Entities.ItemPickup:GetChildren()) do
-                for i,k in pairs(v:GetChildren()) do
-                    for i,l in pairs(k:GetChildren()) do
-                        if l.ClassName == 'BillboardGui' then
-                            l:Remove()
-                        end
-                    end
-                end
-            end
-        
-        end
-end
-
 about:Button("俄亥俄州1英",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/0MqfXpvY", true))()
 end)
