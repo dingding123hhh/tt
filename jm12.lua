@@ -525,6 +525,7 @@ function Collect(item)
     elseif item:FindFirstChildOfClass("Part") then
         local maincrap = item:FindFirstChildOfClass("Part")
         fireclickdetector(maincrap:FindFirstChildOfClass("ClickDetector"))
+    end
 end
 
 ItemFarmFunc = function()
@@ -540,8 +541,6 @@ ItemFarmFunc = function()
                 task.wait(0.5)
             end)
             continue
-        end
-    end
 end
 
 about:Button("俄亥俄州1英",function()
