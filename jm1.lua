@@ -1165,3 +1165,43 @@ about:Button("动感星期五自动PK",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 end)
 
+local UITab37 = win:Tab("『监狱人生』",'7734068321')
+
+local about = UITab37:section("『监狱人生』",true)
+
+about:Button("警卫室",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(847.7261352539062, 98.95999908447266, 2267.387451171875)
+end)
+
+about:Button("监狱室内",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(919.2575073242188, 98.95999908447266, 2379.74169921875)
+end)
+
+about:Button("监狱室外",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(760.6033325195312, 96.96992492675781, 2475.405029296875)
+end)
+
+about:Button("犯罪复活点",function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-937.5891723632812, 93.09876251220703, 2063.031982421875)
+end)
+
+about:Button("手里剑秒杀",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/jian"))()
+end)
+
+about:Button("监狱人生1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+end)
+
+about:Button("监狱人生2",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+end)
+
+about:Button("监狱人生汉化",function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/fYMnAEeJ"))()
+end)
+
+about:Button("监狱人生大量变身",function()
+﻿loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
