@@ -72,7 +72,6 @@ about:Label("但是昨天有人让我非要更新")
 about:Label("那就小小更一波")
 about:Label("       ")
 about:Label("       ")
-about:Label("       ")
 about:Label("大家不要用皮脚本 皮脚本会让手机爆炸<㉿")
 
 
@@ -1020,10 +1019,6 @@ about:Button("汽车经销大亨3",function()
 loadstring(game:HttpGet("https://pastefy.app/5o594Q0i/raw"))()
 end)
 
-about:Button("汽车经销大亨最新",function()
-pcall(function()    repeat wait() until game:IsLoaded()  loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()--- i remove the key now
-end)
-
 local UITab31 = win:Tab("『兵工厂』",'7734068321')
 
 local about = UITab31:section("『兵工厂』",true)
@@ -1197,14 +1192,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/PSXhuge/1/114514/jian
 end)
 
 about:Button("监狱人生1",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/gjbde/main/%E4%B8%81%E4%B8%81%E7%9B%91%E7%8B%B1%E4%BA%BA%E7%94%9F.txt"))()
-end)
-
-about:Button("监狱人生2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
 end)
 
-about:Button("监狱人生3",function()
+about:Button("监狱人生2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
 end)
 
@@ -2004,9 +1995,7 @@ about:Button("我的餐厅1",function()
 loadstring(game:HttpGet("https://pastefy.app/5R1Ch6kk/raw"))()
 end)
 
-about:Button("我的餐厅2",function()
-loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
-end)
+
 
 local UITab60 = win:Tab("『旗帜战争』",'7734068321')
 
