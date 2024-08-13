@@ -951,3 +951,71 @@ about:Button("自然灾害模拟器3",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
 end)
 
+local UITab27 = win:Tab("『进击的僵尸』",'7734068321')
+
+local about = UITab27:section("『进击的僵尸』",true)
+
+about:Button("进击的僵尸",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Zombie%20Attack", true))()
+end)
+
+about:Button("自瞄",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
+end)
+
+local UITab28 = win:Tab("『伐木大亨2』",'7734068321')
+
+local about = UITab28:section("『伐木大亨2』",true)
+
+about:Button("丁参",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/kdmd/main/%E4%B8%81%E4%B8%81%E4%B8%8E%E5%8F%82%E5%A4%A9%20%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A8.txt"))()
+end)
+
+about:Button("最强",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frencaliber/LuaWareLoader.lw/main/luawareloader.wtf",true))()
+end)
+
+about:Button("伐木大亨2  1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Kavo-Ui/main/%E4%BC%90%E6%9C%A8%E5%A4%A7%E4%BA%A82.lua", true))()
+end)
+
+about:Button("伐木大亨2  2",function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/AXE%20LOOP%20SCRIPT"), true))()
+end)
+
+about:Button("伐木大亨2  3",function()
+loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
+end)
+
+about:Button("伐木大亨2  4",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Q7seVBTV"))()
+end)
+
+local UITab29 = win:Tab("『内脏与黑火药』",'7734068321')
+
+local about = UITab29:section("『内脏与黑火药』",true)
+
+about:Button("茗月清风 可能会被删库",function()
+loadstring(game:HttpGet(("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\115\120\99\115\114\49\49\52\53\49\52\47\115\120\99\115\114\49\49\52\53\49\52\49\47\109\97\105\110\47\115\120\99\115\114\49\51\52\56\52\56\52\56\56\46\108\117\97"),true))()
+end)
+
+about:Button("牢大脚本",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\34\104\116\116\112\115\58\47\47\102\114\101\101\110\111\116\101\46\98\105\122\47\114\97\119\47\109\117\122\110\104\101\114\104\114\117\34\41\44\116\114\117\101\41\41\40\41\10")()
+end)
+
+local UITab30 = win:Tab("『汽车经销大亨』",'7734068321')
+
+local about = UITab30:section("『汽车经销大亨』",true)
+
+about:Button("汽车经销大亨1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/Car%20Dealership%20Tycoon.lua"))()
+end)
+
+about:Button("汽车经销大亨2",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()
+end)
+
+about:Button("汽车经销大亨3",function()
+loadstring(game:HttpGet("https://pastefy.app/5o594Q0i/raw"))()
+end)
+
