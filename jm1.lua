@@ -354,6 +354,13 @@ about:Button("你被骗了",function()
     sound:Play()
     end)
 
+about:Button("111",function()
+    local sound = Instance.new("Sound")
+    sound.SoundId = "rbxassetid://6797864253"
+    sound.Parent = game.Workspace
+    sound:Play()
+    end)
+
 local UITab4 = win:Tab("『力量传奇』",'7734068321')
 
 local about = UITab4:section("『力量传奇』",true)
@@ -1199,9 +1206,5 @@ end)
 
 about:Button("监狱人生汉化",function()
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/fYMnAEeJ"))()
-end)
-
-about:Button("监狱人生大量变身",function()
-﻿loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
 end)
 
