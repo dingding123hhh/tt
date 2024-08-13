@@ -1208,4 +1208,3 @@ about:Button("监狱人生汉化",function()
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/fYMnAEeJ"))()
 end)
 
-1
