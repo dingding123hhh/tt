@@ -1021,7 +1021,7 @@ loadstring(game:HttpGet("https://pastefy.app/5o594Q0i/raw"))()
 end)
 
 about:Button("汽车经销大亨最新",function()
-pcall(function()    repeat wait() until game:IsLoaded()  loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()end)--- i remove the key now
+pcall(function()    repeat wait() until game:IsLoaded()  loadstring(game:HttpGet("https://raw.githubusercontent.com/03sAlt/BlueLockSeason2/main/README.md"))()--- i remove the key now
 end)
 
 local UITab31 = win:Tab("『兵工厂』",'7734068321')
@@ -1642,8 +1642,6 @@ about:Button("刀刃球3",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Neoncat765/Neon.C-Hub-X/main/UnknownVersion"))()
 end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
-
 local UITab44 = win:Tab("『战斗勇士』",'7734068321')
 
 local about = UITab44:section("『战斗勇士』",true)
@@ -1677,10 +1675,6 @@ loadstring(game:HttpGet("https://pastefy.app/XoNv04vR/raw"))()
 end)
 
 about:Button("彩虹朋友2",function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/BorkWare/main/Scripts/' .. game.GameId .. ".lua"))(' Watermelon ? ')
-end)
-
-about:Button("彩虹朋友3",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
 end)
 
