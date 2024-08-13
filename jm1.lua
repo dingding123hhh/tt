@@ -1678,4 +1678,25 @@ about:Button("破坏者谜团2  1",function()
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script"),true))()
 end)
 
+local UITab48 = win:Tab("『EVAde  大逃脱』",'7734068321')
+
+local about = UITab48:section("『EVAde  大逃脱』",true)
+
+about:Button("大逃脱1",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/evadeloader.lua"))()
+end)
+
+about:Button("大逃脱2",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/UWU/main/%E4%BA%91%E8%84%9A%E6%9C%ACEvade.lua"))()
+end)
+
+about:Button("大逃脱3",function()
+﻿loadstring(game:HttpGet("https://raw.githubusercontent.com/XenonLUA/Xenon/main/Evade.lua"))()
+end)
+
+about:Button("大逃脱4",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+end)
+
+
 
