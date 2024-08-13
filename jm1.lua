@@ -950,3 +950,4 @@ end)
 about:Button("自然灾害模拟器3",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/9NLK7/93qjoadnlaknwldk/main/main'))()
 end)
+
