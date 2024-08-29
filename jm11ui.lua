@@ -29,7 +29,7 @@ function Ripple(obj)
 		Ripple.BackgroundTransparency = 1.000
 		Ripple.ZIndex = 8
 		Ripple.Image = "rbxassetid://17894875649"
-		Ripple.ImageTransparency = 0.800
+		Ripple.ImageTransparency = 10
 		Ripple.ScaleType = Enum.ScaleType.Fit
 		Ripple.ImageColor3 = Color3.fromRGB(139, 0, 255)
 		Ripple.Position = UDim2.new((mouse.X - Ripple.AbsolutePosition.X) / obj.AbsoluteSize.X, 0, (mouse.Y - Ripple.AbsolutePosition.Y) / obj.AbsoluteSize.Y, 0)
@@ -51,8 +51,8 @@ function switchTab(new)
   if old == nil then
     new[2].Visible = true
     library.currentTab = new
-    services.TweenService:Create(new[1], TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
-    services.TweenService:Create(new[1].TabText, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+    services.TweenService:Create(new[1], TweenInfo.new(3), {ImageTransparency = 0}):Play()
+    services.TweenService:Create(new[1].TabText, TweenInfo.new(3), {TextTransparency = 0}):Play()
     return
   end
   
@@ -60,10 +60,10 @@ function switchTab(new)
   switchingTabs = true
   library.currentTab = new
 
-  services.TweenService:Create(old[1], TweenInfo.new(0.3), {ImageTransparency = 0.3}):Play()
-  services.TweenService:Create(new[1], TweenInfo.new(0.3), {ImageTransparency = 0}):Play()
-  services.TweenService:Create(old[1].TabText, TweenInfo.new(0.3), {TextTransparency = 0.3}):Play()
-  services.TweenService:Create(new[1].TabText, TweenInfo.new(0.3), {TextTransparency = 0}):Play()
+  services.TweenService:Create(old[1], TweenInfo.new(2), {ImageTransparency = 0.3}):Play()
+  services.TweenService:Create(new[1], TweenInfo.new(2), {ImageTransparency = 0}):Play()
+  services.TweenService:Create(old[1].TabText, TweenInfo.new(3), {TextTransparency = 0.3}):Play()
+  services.TweenService:Create(new[1].TabText, TweenInfo.new(2), {TextTransparency = 0}):Play()
 
   old[2].Visible = false
   new[2].Visible = true
